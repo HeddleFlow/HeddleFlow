@@ -1,3 +1,5 @@
+<img src=".github/assets/heddleflow-mark.svg" alt="" width="64" height="64">
+
 # HeddleFlow
 
 **HeddleFlow works with AI agents to build a new product from an idea, or grow an existing one from a change, through
