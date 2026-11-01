@@ -1,0 +1,29 @@
+name: Suggest an improvement
+description: Something HeddleFlow could do, or do better, or something its help could explain better.
+labels: [suggestion]
+body:
+  - type: textarea
+    id: goal
+    attributes:
+      label: What you are trying to do
+      description: The work you want to get done, in your own project's terms.
+    validations:
+      required: true
+  - type: textarea
+    id: obstacle
+    attributes:
+      label: What gets in the way today
+      description: What HeddleFlow does now, or does not do, and what that costs you.
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would help
+      description: Your idea, if you have one. A description of the need alone is just as useful.
+  - type: dropdown
+    id: harness
+    attributes:
+      label: Harness
+      multiple: true
+      options: [Claude Code, GitHub Copilot, OpenAI Codex, Cursor, Google Antigravity, OpenCode, Not specific to one]
